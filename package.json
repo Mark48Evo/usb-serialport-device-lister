@@ -1,6 +1,6 @@
 {
   "name": "@mark48evo/usb-serialport-device-lister",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A USB SerialPort Device Lister",
   "author": "Aurimas Niekis <aurimas@niekis.lt> (https://github.com/Mark48Evo)",
   "license": "MIT",
