@@ -36,7 +36,7 @@ export default class UsbSerialPortDeviceLister extends Events {
     debug(`Found "${deviceList.length}" devices before running filter`);
 
     deviceList = this.filters.reduce(
-      (acc, filter) => acc.filter(device => Object.keys(filter).map(field => {
+      (acc, filter) => acc.filter(device => Object.keys(filter).map((field) => {
         if (device[field] !== filter[field]) return field;
         return undefined;
       }).filter(val => val).length === 0),
